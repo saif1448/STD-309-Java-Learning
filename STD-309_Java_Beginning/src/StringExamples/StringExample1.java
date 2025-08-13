@@ -58,6 +58,56 @@ public class StringExample1 {
 
 
 
+        //replace()
+        //name4= "ABCD DEFG"
+        System.out.println("Before replacing CD: "+ name4);
+        name4 = name4.replace("CD", "TT");
+        System.out.println("replace example:: After replacing CD: "+ name4);
+        //character replacement
+        name4 = name4.replace('T', 'P');
+        System.out.println("replace example:: After replacing T Char: "+ name4);
+
+        //split()
+        name = "SAIF MAHMUD PARVEZ";
+        String[] namePart = name.split(" ");
+        System.out.println("Example of split(): ");
+        for(var individualPart: namePart){
+            System.out.println(individualPart);
+        }
+        //                      name|age|address    |email
+        String personDetails1 = "ABCD|21|XYZ,123,TTT|avc@gmail.com";
+        String personDetails2 = "PQRS|21||avc@gmail.com";
+        String personDetails3 = "GHAF|21|XYZ,123,TTT|";
+
+        // be careful for the special character. for special char, you have to give \\ before that
+        String[] personDetails1Part = personDetails1.split("\\|");
+        System.out.println("size: " + personDetails1Part.length);
+//        for(String i : personDetails1Part){
+//            System.out.println(i);
+//        }
+        for(int i=0; i<4; i++){
+            System.out.println(personDetails1Part[i]);
+        }
+
+        String[] personDetails2Part = personDetails2.split("\\|");
+        System.out.println("size: " + personDetails2Part.length);
+//        for(String i : personDetails2Part){
+//            System.out.println(i);
+//        }
+        for(int i=0; i<4; i++){
+            System.out.println(personDetails2Part[i]);
+        }
+
+        String[] personDetails3Part = personDetails3.split("\\|", -1);
+        System.out.println("size: " + personDetails3Part.length);
+//        for(String i : personDetails3Part){
+//            System.out.println(i);
+//        }
+        for(int i=0; i<4; i++){
+            System.out.println(personDetails3Part[i]);
+        }
+
+
 
 
 

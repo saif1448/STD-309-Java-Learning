@@ -46,7 +46,30 @@
             - then it will return the index of the character of its first occurrence
             - if not present , -1
     - replace()
+      - this function replace a substring with another substring, but it doesnt change the original string
+      - rather it creates a new string with the replaced substring and return this new string
+      - pattern
+        - char replace
+        - substring replace
     - split()
+      - it is gonna split the string depending on the delimiter
+      - after splitting, it is gonna give an array of the splitted values
+      - if we give -1 in the parameter also, it is not gonna leave behind any blank value after splitting
+        - otherwise it is not gonna consider the blank value
     - strip()
-    - toCharArray()
     - trim()
+    - toCharArray()
+    - string formatting
+      - for printing, printf()
+      - %s: For formatting strings. 
+      - %d: For formatting decimal (integer) values. 
+      - %f: For formatting floating-point numbers. Precision can be controlled (e.g., %.2f for two decimal places). 
+      - %b or %B: For formatting boolean values as "true"/"false" or "TRUE"/"FALSE". 
+      - %c or %C: For formatting characters. 
+      - %x or %X: For formatting integers as unsigned hexadecimal. 
+      - %n: For inserting a platform-specific line break. 
+      - %t: For formatting date and time values, often followed by specific characters like tY (year), tm (month), td (day), tH (hour), tM (minute), tS (second).
+
+
+he said, "We are going to the movie today"
+I said, "No! it is not possible! I am busy 24*7"
