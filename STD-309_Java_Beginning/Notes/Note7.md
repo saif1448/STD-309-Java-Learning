@@ -57,8 +57,14 @@
       - if we give -1 in the parameter also, it is not gonna leave behind any blank value after splitting
         - otherwise it is not gonna consider the blank value
     - strip()
+      - It removes trailing and leading white spaces
+      - use it always if java version is  >= 11
     - trim()
+      - do as the same as split() but doesn't handle unicode
+      - use it if java version is < 11
     - toCharArray()
+      - it converts a string to a char array --> char[]
+      - you can index over a char array
     - string formatting
       - for printing, printf()
       - %s: For formatting strings. 
