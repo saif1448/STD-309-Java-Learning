@@ -1,14 +1,10 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.*;
-import java.util.stream.Collectors;
+import MethodExamples.Method1Example;
 
 public class Test1 {
 
     public static void main(String[] args) {
 
-        System.out.println(2%1);
-
+//        System.out.println(Method1Example.name);
 
     }
 

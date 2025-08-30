@@ -5,12 +5,14 @@ public class Test2 {
 //      boolean a = true;
 //      boolean b = false;
 
-        int a = 50;
-        int b = 30;
-        int c = 40;
-
-      System.out.println(a < b);
-
+        int a = 12;
+        int b = 7;
+        int c = (a--) + (++b);
+        int d = ++c - a--;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
 
     }
 }
