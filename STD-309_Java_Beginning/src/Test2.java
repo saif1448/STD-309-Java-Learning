@@ -2,17 +2,16 @@ public class Test2 {
 
     public static void main(String[] args) {
 
-//      boolean a = true;
-//      boolean b = false;
-
-        int a = 12;
-        int b = 7;
-        int c = (a--) + (++b);
-        int d = ++c - a--;
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-
+        //Math.random() -----> (0 --- 1)
+        // 0 <= x < 1
+        // 200*0 --- 200*1
+        // 200*0 <= x < 200*1
+        // 0 + 190 <=x < 200
+        // 2---10 2+9 ---> 11 ---> (2,10)
+        System.out.println(2 + Math.random()*9);
     }
+
+
+
+
 }
