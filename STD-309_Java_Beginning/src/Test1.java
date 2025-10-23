@@ -9,25 +9,8 @@ public class Test1 {
 
     public static void main(String[] args) {
 
-
-        
+        System.out.println(4 | 12);
     }
-
-    public static int testMethod(int a, int b){
-
-        if(a > b){
-            return a;
-        }
-//        else{
-//            return b;
-//        }
-        else if(a < b){
-            return b;
-        }
-
-        return 16;
-    }
-
 
 
 }
