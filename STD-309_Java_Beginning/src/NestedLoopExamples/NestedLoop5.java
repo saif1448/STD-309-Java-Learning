@@ -1,12 +1,6 @@
-import MethodExamples.Method1Example;
+package NestedLoopExamples;
 
-import java.util.Scanner;
-
-import static java.lang.Math.*;
-import static java.lang.StrictMath.log10;
-
-public class Test1 {
-
+public class NestedLoop5 {
     public static void main(String[] args) {
         String[] str = {"abc", "defg", "pq", "oprs"};
 
@@ -24,6 +18,5 @@ public class Test1 {
             System.out.println(str.charAt(j) + "--->"+a);
         }
     }
-
 
 }
