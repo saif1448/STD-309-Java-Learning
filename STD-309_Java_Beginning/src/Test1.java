@@ -7,23 +7,36 @@ import static java.lang.StrictMath.log10;
 
 public class Test1 {
 
+    public static int countSubString(String subStr, String str){
+
+        int index = 0;
+        int count = 0;
+
+        while (true){
+            index = str.indexOf(subStr, index);
+            if (index != -1){
+                count++;
+            }else{
+                break;
+            }
+            index = index + subStr.length();
+        }
+
+        return count;
+    }
+
+
+    public static boolean catdog(String str){
+       int countCat = countSubString("cat", str);
+       int dogCount = countSubString("dog", str);
+       return countCat == dogCount;
+    }
+
     public static void main(String[] args) {
-        String[] str = {"abc", "defg", "pq", "oprs"};
-
-        int i = 0;
-        while (i< str.length){
-            System.out.println("----------"+str[i]+"------------------");
-            printFunction(str[i], i);
-            i++;
-        }
+        catdog("1cat1dog1cat1cat1dog");
     }
 
-    public static void printFunction(String str, int a){
 
-        for(int j =0; j<str.length(); j++){
-            System.out.println(str.charAt(j) + "--->"+a);
-        }
-    }
 
 
 }
