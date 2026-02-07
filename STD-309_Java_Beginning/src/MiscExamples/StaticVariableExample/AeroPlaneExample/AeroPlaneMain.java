@@ -10,6 +10,8 @@ public class AeroPlaneMain {
         biman_01.addPassenger(p1);
         biman_01.addPassenger(p2);
 
+
+
         System.out.println("Before starting journey:");
         System.out.println("-----------------------");
         System.out.println(biman_01);

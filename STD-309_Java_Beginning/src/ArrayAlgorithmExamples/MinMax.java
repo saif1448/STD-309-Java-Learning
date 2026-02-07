@@ -8,8 +8,8 @@ public class MinMax {
         int[] minMaxValues = new int[2];
         // 70, 14, 67, 89, 13, 21
 
-        int minVal = Integer.MAX_VALUE;
-        int maxVal = Integer.MIN_VALUE;
+        int minVal = Integer.MAX_VALUE; // int minVal = arr[0]
+        int maxVal = Integer.MIN_VALUE; // int maxVal = arr[0]
 
         // we are gonna loop over the array
         // if the current element in the array is less than minVal, we are gonna replace the minVal with the current element

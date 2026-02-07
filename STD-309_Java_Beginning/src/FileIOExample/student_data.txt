@@ -1,0 +1,21 @@
+name,grade,cgpa
+Ayaan Rahman,A,3.85
+Nusrat Jahan,A-,3.72
+Tanvir Ahmed,B+,3.45
+Farhana Akter,A,3.90
+Rafiul Islam,B,3.20
+Mehedi Hasan,A-,3.68
+Sadia Chowdhury,B+,3.50
+Imran Hossain,C+,2.85
+Tahmina Sultana,A,3.95
+Arif Mahmud,B,3.10
+Nabila Khan,A-,3.70
+Sajid Karim,B+,3.40
+Fariha Noor,A,3.88
+Rakib Uddin,C,2.60
+Shamima Akhter,B,3.00
+Hasan Ali,B+,3.55
+Mim Rahman,A-,3.65
+Omar Faruk,B,3.05
+Jannatul Ferdous,A,3.92
+Shuvo Das,C+,2.75

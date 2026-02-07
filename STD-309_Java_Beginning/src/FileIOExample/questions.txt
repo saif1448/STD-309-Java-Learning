@@ -1,0 +1,30 @@
+1. do What is the capital city of Bangladesh?
+2. do Explain the concept of object-oriented programming.
+3. do What is the difference between a stack and a queue?
+4. do Define machine learning in simple terms.
+5. do What is an operating system?
+6. do Why is data normalization important in databases?
+7. do What is the purpose of a primary key?
+8. do Explain how the internet works.
+9. do What is a compiler?
+10. do What is the use of recursion in programming?
+11. do Define artificial intelligence.
+12. do What is cloud computing?
+13. do Explain the difference between HTTP and HTTPS.
+14. do What is a neural network?
+15. do Why is cybersecurity important?
+16. do What is the role of an algorithm?
+17. do Define data structures.
+18. do What is version control?
+19. do Explain the concept of big data.
+20. do What is an API?
+21. do Why is testing important in software development?
+22. do What is a database management system?
+23. do Explain the concept of inheritance in OOP.
+24. do What is the difference between RAM and ROM?
+25. do What is a programming language?
+26. do Define the term debugging.
+27. do What is the purpose of an index in databases?
+28. do Explain what open-source software means.
+29. do What is the role of an operating system kernel?
+30. do Why is documentation important in software projects?
