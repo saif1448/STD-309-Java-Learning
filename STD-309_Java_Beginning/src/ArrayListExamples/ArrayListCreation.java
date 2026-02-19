@@ -31,9 +31,6 @@ public class ArrayListCreation {
 
         System.out.println(numList);
 
-
-
-
     }
 }
 

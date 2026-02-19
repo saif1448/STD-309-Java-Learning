@@ -34,4 +34,13 @@ public class Student {
     public String getGrade() {
         return grade;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentId='" + studentId + '\'' +
+                ", name='" + name + '\'' +
+                ", grade='" + grade + '\'' +
+                '}';
+    }
 }
