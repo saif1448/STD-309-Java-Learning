@@ -5,6 +5,11 @@ public class Student {
     private String name;
     private String id;
 
+    public Student(){
+        name = "";
+        id = "";
+    }
+
     public Student(String name, String id){
         this.id = id;
         this.name = name;
@@ -33,4 +38,6 @@ public class Student {
                 ", id='" + id + '\'' +
                 '}';
     }
+
+
 }
