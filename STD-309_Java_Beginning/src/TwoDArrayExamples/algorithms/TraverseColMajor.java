@@ -27,6 +27,7 @@ public class TraverseColMajor {
             for(int i = 0; i < num2dArr.length; i++){
                 System.out.print("i"+i+"j"+j+": "+num2dArr[i][j] + " ");
             }
+
             System.out.println();
         }
 
